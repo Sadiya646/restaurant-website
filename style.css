@@ -1,0 +1,128 @@
+
+header{
+    background-image:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./images/plato-vegano-pasta.webp);
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.color{
+    background-color: #c8ccbc;
+}
+.font{
+    font-family: "Elsie", serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+
+}
+nav div ul{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+    font-size: 20px;
+    
+}
+nav div ul li{
+    list-style: none;
+    
+}
+nav div ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.res-name{
+    color:white;
+    
+}
+.banner-content{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 170px;
+    color:white;
+}
+.introduction{
+    background-color: #B7BCA9;
+}
+.intro-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+    padding: 80px;
+}
+.intro-content p{
+    width: 570px;
+    font-size: 24px;
+    color: #36392D;
+}
+.intro-content h1{
+    color: #36392D;
+    font-size: 64px;
+}
+.intro-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+
+}
+.intro-img img{
+    /* width: calc((100% - 60px) / 4); */
+  
+    height: 300px;
+    object-fit: cover;
+}
+.menu-content{
+    /* align-items: center; */
+    text-align: center;
+    padding: 50px;
+}
+.menu-btn{
+    display: flex;
+    justify-content: center;
+margin-bottom: 30px;
+    text-align: center;
+    gap: 30px;
+}
+.btn{
+    padding: 16px 40px;
+    border: 2px solid grey;
+    background:none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #a8aba1;
+    
+}
+.menu-img{
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-top: 50px;
+
+
+}
+.menu-img p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #36392D;
+}
+.menu-img h4{
+    text-align: center;
+    color: #36392D;
+    padding: 10px;
+
+}
