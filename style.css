@@ -106,6 +106,10 @@ margin-bottom: 30px;
     background-color: #a8aba1;
     
 }
+.menu-content h1{
+    color: #34362d;
+    padding-bottom: 10px;
+}
 .menu-img{
 display: flex;
 justify-content: center;
@@ -125,4 +129,173 @@ margin-top: 50px;
     color: #36392D;
     padding: 10px;
 
+}
+.drinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+    padding: 80px;
+}
+.left{
+    width: 40%;
+
+
+}
+.left h2{
+color: #36392D;
+padding-top: 10px;
+}
+.left h4{
+    padding-top: 10px;
+    color: #36392D;
+    font-size: 25px;
+}
+.left p{
+   padding-top: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+    justify-content: flex-start;
+    justify-content: center;
+    
+    font-size: 50px;
+}
+.right h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #36392D;
+}
+.team{
+    background-color: #B7BCA9;
+   
+}
+.team-content{
+display: flex;
+justify-content: space-between;
+padding: 60px;
+
+}
+.team-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #34362d;
+    padding-left: 80px;
+}
+.team-img{
+    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    
+   
+}
+.team-img img{
+    width: 300px;
+    
+    padding: 10px;
+    
+
+}
+
+.team-img h2{
+    color: #34362d;
+
+}
+.team-img h4{
+    color: #36392D;
+    padding: 10px;
+}
+.team-img p{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.event-img{
+    padding-bottom: 40px;
+}
+
+.event-img div{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+
+}
+.event-img img{
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+}
+.event h1{
+    text-align: center;
+    font-size: 50px
+    ;
+    color: #34362d;
+    padding: 50px;
+}
+
+.footer{
+    background-color: #B7BCA9;
+    padding: 60px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #36392D;
+    font-size: 16px;
+}
+
+.footer-logo{
+    text-align: center;
+}
+
+.footer-logo h2{
+    font-size: 32px;
+    color: #36392D;
+    margin-bottom: 30px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons i{
+    font-size: 25px;
+    color: #36392D;
+    cursor: pointer;
+}
+
+.footer-newsletter p{
+    color: #36392D;
+    margin-bottom: 10px;
+}
+
+.footer-newsletter input{
+    border: none;
+    border-bottom: 1px solid #36392D;
+    background: transparent;
+    padding: 8px 0;
+    width: 220px;
+    outline: none;
+    font-size: 16px;
+}
+
+.footer-newsletter input::placeholder{
+    color: #777;
 }
