@@ -31,7 +31,9 @@ The website is built using:
 
 - HTML
 - CSS
+## 🌐 Live Demo
 
+[Visit Live Website](https://sadiya646.github.io/restaurant-website/)
 ## ⚙️ How to Run Locally
 
 ### 1. Clone the repository
